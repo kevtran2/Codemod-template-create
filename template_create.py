@@ -65,7 +65,7 @@ def create_files(codemod_names, owner_name, engine, language):
         with open(test_file_name, 'w') as file:
             file.write(f"Test code for {name}")
 
-        readme_file_name = f"{folder_path}/READme.md"
+        readme_file_name = f"{folder_path}/README.md"
         with open(readme_file_name, 'w') as file:
             file.write(f"readme description for {name} codemod")
 
